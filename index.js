@@ -36,7 +36,13 @@ var linksData = template({
             href: 'articles.html',
             link: 'Articles',
             activeLocation: '/articles.html',
+        },
+        {
+            href: 'picts.html',
+            link: 'Picts',
+            activeLocation: '/picts.html',
         }
+
 
     ]
 });
