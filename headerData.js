@@ -11,16 +11,6 @@ export default {
         activeLocation: '/travels.html',
       },
       {
-        href: 'organisation.html',
-        label: 'Organisation',
-        activeLocation: '/organisation.html',
-      },
-      {
-        href: 'routes.html',
-        label: 'Routes',
-        activeLocation: '/routes.html',
-      },
-      {
         href: 'info.html',
         label: 'Info',
         activeLocation: '/info.html',
@@ -30,16 +20,11 @@ export default {
         label: 'Blog',
         activeLocation: '/blog.html',
       },
-      {
-        href: 'products.html',
-        label: 'Products',
-        activeLocation: '/products.html',
-      },
+      
       {
         href: 'contact-us.html',
         label: 'Contact Us',
         activeLocation: '/contact-us.html',
       },
     ],
-  };
-  
+  }

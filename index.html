@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <title>Handlebars learning-2</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.css">
     <script src="./handlebars-v4.1.2.js"></script>
     <script src="./index.js" ></script>
 </head>
@@ -20,17 +20,6 @@
 
     </header>
     <hr>
-
-    <script id="header-template" type="text/x-handlebars-template">
-          <ul>
-            {{#each header.navItems}}
-            <li class="nav-item" {{this.customClass}}>
-                <a class="nav-link" href="{{this.href}}">{{this.label}}</a>
-            </li>
-            {{/each}}
-        </ul>
-    </script>
-
 
 </body>
 
