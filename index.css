@@ -4,3 +4,8 @@ body {
 .nav-header {
     margin: 10px;
 }
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e00d0d;
+}
