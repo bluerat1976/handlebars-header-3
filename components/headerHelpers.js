@@ -11,3 +11,5 @@ export default function prepareHeader(header) {
     navItems: handleNavItems(header.navItems),
   };
 }
+
+

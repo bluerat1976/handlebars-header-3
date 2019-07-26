@@ -7,7 +7,7 @@
     <title>Handlebars learning-2</title>
     <link rel="stylesheet" href="./index.css">
     <script src="./handlebars-v4.1.2.js"></script>
-    <script src="./header.js" defer ></script>
+    <script src="./header.js" ></script>
 </head>
 
 <body>
@@ -16,13 +16,13 @@
         <h3>Handlebars is not working with separate js file "header.hbs"!!!</h3>
     </div>
     <hr>
-    <div id='header'>
+    <div>
         <script type="text/x-handlebars-template">
         <div>
             <ul class="navbar-nav mr-auto font-weight-bold">
                 {{#each header.navItems}}
                 <li class="nav-item {{this.customClass}}">
-                    <a class="nav-link" href="{{this.href}}">{{#isActive this}} {{this.label}} {{/isActive}}</a>
+                    <a class="nav-link" href="{{this.href}}">{{this.label}}</a>
                 </li>
                 {{/each}}
             </ul>
@@ -30,7 +30,7 @@
         </script>
     </div>
     <hr>
-    <h3>If you have any questions, please, contact with me without any hesitation.</h3>
+    <h3>Catalog de produse si preturi din magazinele din Chisinau si Moldova. <br> Aici gasesti usor produsele dorite la cele</h3>
 </body>
 
 </html>
